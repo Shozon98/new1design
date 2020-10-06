@@ -1,0 +1,166 @@
+*{margin:0px; padding:0px;}
+
+body {
+	font-family:arial;
+	
+	font-size:15px;
+	line-height:25px;
+}
+@font-face{
+	
+	font-family:myfirstfont;
+	src:url(SansitaSwashed-VariableFont_wght.woff);
+}
+#manu1 {
+    width: 1235px;
+    padding: 5px;
+	
+}
+
+#manu1 li {
+	display:inline;
+}
+#manu1 li a {
+	font-weight:bold;
+	font-size:20px;
+	text-decoration:none;
+	color:#ece0e0;
+	margin:15px;
+	float: right;
+	margin-right: 16px;
+	font-family:myfirstfont;
+	transition:0.5s;
+}
+#manu1 li a:hover {background:white; 
+	color:red; 
+	padding:8px;
+	border-radius:20px;
+	color:red; 
+	}
+	
+	
+
+/*===hover {border-bottom: 2px solid orange;background:white; transition:0.5s;*/
+	
+img {
+    width: 120px;
+    margin-left: 84px;
+	margin-top: 5px;
+}
+#rightcontain {
+    background: #0f1025;
+    border-bottom:3px solid #dc0707;
+}
+
+
+
+/*------------------------------------------*/
+
+.contain {
+    background: #f0fff0;
+    font-family: Arial;
+    width: 340px;
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #ffffff;
+	margin: 10px;
+	transition:all 0.6s; 
+	animation-name: firstkey;
+	animation-duration:1s;
+	
+   
+}
+
+.contain:hover{
+	background:transparent;
+	color:white;
+	cursor:pointer;
+	
+	transform:translateY(-10px);
+}
+.contain:hover i {color:white; }
+.contain:hover h2 {transform:translateX(70px)}
+.leftcontain {
+	font-size: 50px;
+	width:55px;
+	float: left;
+	margin-top: 10px;
+
+}
+
+.leftcontain i {
+    color: #ff5200;
+}
+.rightcontain {
+	width:285px;
+	font-size: 13px;
+	float: right;
+	line-height: 16px;
+}
+
+
+.leftcontain,.rightcontain {display: inline-block;}
+
+.rightcontain h2 {
+	margin-bottom: 10px;
+	font-size: 20px;
+	transition:transform 1s;
+}
+
+.rightcontain p {
+	font-size: 13px;
+}
+
+#allcontain {
+    width: 1170px;
+     margin-top: 44px;
+	margin-left: 88px;
+    color: #020202;
+}
+
+.allblog {
+	padding-right: 85px;
+    background: #272640;
+	padding-bottom: 62px;
+	padding-top: 33px;
+}
+
+
+.allblog span {
+	color:#f72929;
+	
+}
+.logo img {
+    float: left;
+    max-width:100%;
+    border-radius: 92px;
+    width: 162px;
+    margin-left: 133px;
+    
+}
+h1.title {
+    font-size: 54px;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 100px;
+}
+h1 {color:white;}
+
+footer {
+    background: #0f1025;
+    font-size: 20px;
+    padding: 19px;
+	color:white;
+	margin-left: 79px;
+	font-family: fantasy;
+}
+#background {
+    background: #0f1025;
+}
+
+
+
+
+
+
